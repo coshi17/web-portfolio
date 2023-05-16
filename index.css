@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box	;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#landing {
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c827bb75-a744-4f5c-aab7-376618cc9fd7/dfjeaf3-9965df79-6fdf-4921-be67-4527b85f50d9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M4MjdiYjc1LWE3NDQtNGY1Yy1hYWI3LTM3NjYxOGNjOWZkN1wvZGZqZWFmMy05OTY1ZGY3OS02ZmRmLTQ5MjEtYmU2Ny00NTI3Yjg1ZjUwZDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zzBCRvpdJWosof_Uh9P14n35xP5HWMADZ88JsNdeMmc);
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	margin-top: 3em;
+}
+
+.title {
+ color: white;
+ font-size: 100px;
+text-align: center;
+padding-top: 5rem;
+position: relative;
+}
+
+.subtitle {
+color: white;
+font-size: 1.8em;
+
+
+padding-top: 2em;
+font-weight: 300;
+
+}
+
+.front-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+.title,.title-2 {
+  font-family: 'Zilla Slab', serif;
+}
+
+
