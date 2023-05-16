@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box	;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden; /* Hide vertical scrollbar */
+}
+
+#landing {
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c827bb75-a744-4f5c-aab7-376618cc9fd7/dfjeaf3-9965df79-6fdf-4921-be67-4527b85f50d9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M4MjdiYjc1LWE3NDQtNGY1Yy1hYWI3LTM3NjYxOGNjOWZkN1wvZGZqZWFmMy05OTY1ZGY3OS02ZmRmLTQ5MjEtYmU2Ny00NTI3Yjg1ZjUwZDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zzBCRvpdJWosof_Uh9P14n35xP5HWMADZ88JsNdeMmc);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin-top: 0;
+}
+
+.container1 {
+	color: white;
+	text-align: center;
+	padding: 20em;
+}
+
+.front-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+.title,.title-2 {
+  font-family: Open Sans, sans-serif;
+}
+
+
+.navbar {
+	margin-left: -15px;
+	margin-right: -49rem;
+	display: relative;
+	position: fixed;
+
+
+}
+
+.container {
+	position: fixed;
+	display: relative;
+}
+
+.title2 {
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: orange;
+	color: ;
+	margin-top:  10rem;
+	margin-left: 5rem;
+	margin-bottom: 5em;
+}
+
+.image2 {
+	align-content: center;
+	margin-top: 2rem;
+}
+
+.text-dark {
+	text-align: center;
+	margin-top: 10rem;
+	text-decoration: underline;
+	text-decoration-color: orange;
+}
+
+.image2 {
+	display: absolute;
+}
+
+.tools {
+	text-decoration: underline;
+	text-decoration-color: orange;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.image2 {
+	align-content: center;
+	margin-left: 40rem;
+	bottom: 50rem;
+	display: inline-block;
+	position: relative;
+	width: 600px;
+	height: 450px;
+}
+
+.row1st {
+	display: block;
+	position: relative;
+}
+
+.tools2 {
+	margin-top: 2rem;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: orange;
+}
+
+
+.btn {
+	margin-top: 10px;
+}
+
+
+footer {
+	padding: 0.7rem;
+}
+
+footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	background-color: black;
+}
