@@ -38,8 +38,8 @@ body {
 .navbar {
 	margin-left: -15px;
 	margin-right: -49rem;
-	display: relative;
-	position: fixed;
+	display: inline-block;
+	position: sticky;
 
 
 }
@@ -120,3 +120,11 @@ body {
 	font-family: Open Sans, sans-serif;
 	font-size: 19px;
 }
+
+ /* Responsive Styles */
+ @media (max-width: 576px) {
+        /* Adjust the styles for smaller screens */
+        .container1 {
+          text-align: center;
+          padding-top: 50px;
+          padding-bottom: 50px;
