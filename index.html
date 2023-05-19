@@ -1,8 +1,9 @@
- <HTML>
+<HTML>
 <html>
     <head>
         <title>Capstone</title>
 
+        
         <!-- External CSS -->
         <link rel="stylesheet" href="./index.css"/>
 
@@ -16,121 +17,85 @@
     </head>
     <body>
         <!-- landing page -->
-        <section id="landing">
-          <div class="front-bg">
-            <div class="container">
-              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">
-                  <img src="https://i.pinimg.com/originals/ea/69/33/ea6933ab571dce4677e4880824544fad.png" width="40px" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#landing">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contacts</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#tools">Tools</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Links</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-            <div class="container1">
-              <h1 class="title">Patrick Vincent Cosio</h1>
-              <h2 class="subtitle">
-                Hi! I'm Patrick Vincent Cosio, 21 years old. I have no experience in coding as I only learned on Linkedin. Looking forward to learning more here in Zuitt.
-              </h2>
-            </div>
-          </div>
-        </section>
-        <!-- End of landing page -->
-
-        <!-- Projects Section -->
-         <<!-- Start of Gallery Section-->
-            <h1 class="title2">Gallery</h1>
-              <div id="projects" class="row">
-            <div class="col-lg-4 lg-0">
-            <img
-              src="images/proj3.png"
-              class="w-100">
-            </div>
-  
-
-          <div class="col-lg-4 lg-0">
-            <img
-              src="images/cap1.png"
-              class="w-100">  
-          </div>
-
-          <div class="col-lg-4 lg-0">
-            <img
-              src="images/proj2.png"
-              class="w-100">    
-          </div>
-        </div>
-        </body>
-        <!-- End Of Gallery Section -->
-        
-         
-       <h2 id=contact class="text-dark">Contact Me</h2>
-
-       <div id="Contact" class="row mt-3">
-         <form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-dark p-3 rounded">
-           <div class="form-row">
-             <div class="col">
-               <label class="text-light" for="name">Full Name</label>
-               <input type="text" class="form-control" id="name" placeholder="Full Name">
-             </div>
-             <div class="col">
-               <label class="text-light" for="email">Email address</label>
-               <input type="email" class="form-control" id="email" placeholder="name@example.com">
-             </div>
-           </div>
-           <div class="form-group text-light">
-             <label for="textarea">Your Message</label>
-             <textarea class="form-control" rows="3"></textarea>
-
-             <button type="button" class="btn btn-primary btn-send-email" data-toggle="modal" data-target="#exampleModal">Send</button>
-
-             <!-- Modal Start -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-             <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                           Message Successfully Sent
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
+        <section id="Landing" class= "container-fluid min-vh-100">
+               <div>
+                   <div class="front-bg">
+                       <div>
+                           <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                               <a class="navbar-brand" href="#">
+                                   <img id="logo" src="https://i.pinimg.com/originals/ea/69/33/ea6933ab571dce4677e4880824544fad.png" width="40px" alt="Logo">
+                               </a>
+                               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                                   <span class="navbar-toggler-icon"></span>
+                               </button>
+                               <div class="collapse navbar-collapse" id="navbarNav">
+                                   <ul class="navbar-nav container-fluid">
+                                       <li class="nav-item">
+                                           <a class="nav-link" href="#Landing">Home</a>
+                                       </li>
+                                       <li class="nav-item">
+                                           <a class="nav-link" href="#About Me">About Me</a>
+                                       </li>
+                                       <li class="nav-item">
+                                           <a class="nav-link" href="#Projects">Projects</a>
+                                       </li>
+                                       <li class="nav-item">
+                                           <a class="nav-link" href="#Tools">Tools</a>
+                                       </li>
+                                       <li class="nav-item">
+                                           <a class="nav-link" href="#Links">Links</a>
+                                       </li>
+                                   </ul>
+                               </idv>
+                           </nav>
+                       </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-
-
-           </div>
-         </form>
-       </div>
+              </section>
+              <div id="About Me" class="container-fluid p-5 bg-dark min-vh-100">
+              <h1 class="title text-center text-light p-5" >Patrick Vincent Cosio</h1>
+              <h1 class="subtitle text-center text-light">
+               Full Stack Web Developer
+              </h1>
+                <h3 class= "sb-info text-center justify-content-center text-light">
+                 Hi!, Welcome to my Web Portfolio, Looking Forward for our great Future!
+               </h3>        
+              <img id="prof" src="https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.6435-9/86386248_1248424952022280_542850369764458496_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=kYZUZkmLo7YAX-ErpQY&_nc_ht=scontent.fmnl9-1.fna&oh=00_AfBgHEOlZkUw1fbRo6H9Xgu_PXsd1NCBW4psm9wlNNtdJQ&oe=648EA305" class="rounded-circle d-flex d-none p-5">
+                
+        </div>
+      </section>
         <!-- End of Contact Section -->
+            <div>
+           <div>
+          <div>
+         <div>        
 
+     <section id="Projects" class="p-5 container-fluid min-vh-100 bg-gray">
+        <h1 class="title2 text-center">Gallery</h1> 
+                      <div id="row1st" class="row">
+                    <div class="col-lg-4 lg-0">
+                    <li><img
+                      src="images/proj3.png"
+                      class="w-100"></li>
+                    </div>
+
+                  <div class="col-lg-4 lg-0">
+                   <li><img
+                      src="images/cap1.png"
+                      class="w-100"></li>  
+                  </div>
+
+                  <div class="col-lg-4 lg-0">
+                   <li><img
+                      src="images/proj2.png"
+                      class="w-100"></li>    
+                  </div>             
+                </div>                    
+             </div>   
+      </section>
         <!-- Tools Section -->
+        <section id=Tools class="container-fluid col min-vh-100">
         <h1 id="tools" class="tools">Core Tools</h1>
         <div class="p-3 d-flex justify-content-center align-items-center flex-column">
           <div class="row align-items-center">
@@ -145,9 +110,7 @@
             </div>
           </div>
         </div>
-
-
-        <h1 id="tools" class="tools2">Other Tools</h1>
+       <h1 id="tools" class="tools2 container-fluid min-vh-75">Other Tools</h1>
         <div class="p-3 d-flex justify-content-center align-items-center flex-column">
             <div class="row align-items-center">
               <div class="col-sm-6 col-lg-4">
@@ -161,6 +124,9 @@
             </div>
         </div>
       </div>
+      </section>
+
+      
         <!-- End of Tools Section -->
         <!-- Footer Section -->
         <footer class="footer">
