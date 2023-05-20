@@ -4,13 +4,17 @@
 	box-sizing: border-box	;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden; /* Hide vertical scrollbar */
 }
 
 body {
-	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/99394768-e452-4746-9629-870b3dc7037b/d7veyv6-fa650629-a31b-4504-af93-5b32ef08b098.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk5Mzk0NzY4LWU0NTItNDc0Ni05NjI5LTg3MGIzZGM3MDM3YlwvZDd2ZXl2Ni1mYTY1MDYyOS1hMzFiLTQ1MDQtYWY5My01YjMyZWYwOGIwOTgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4YWj1vd8pXw0slqqTyDJde1ZUAYveOtVsOf62eaprYY);
+	background-image: url(https://www.zastavki.com/pictures/1920x1080/2018Nature___Sundown_Sunset_in_the_blue_sky_on_the_sea_horizon_129614_23.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -28,7 +32,6 @@ body {
 	background-image: url(https://i.pinimg.com/originals/17/f0/4c/17f04cfea9408581f241f54780000420.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
 
 #color{
@@ -43,6 +46,9 @@ body {
 
 .title,.title-2 {
   font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  color: white;
+
 }
 
 
@@ -89,7 +95,9 @@ body {
 
 .row1st {
 	display: block;
-	position: relative;
+	position: absolute;
+	height: 4em;
+
 }
 
 .tools2 {
@@ -141,3 +149,20 @@ body {
     .nav-item {
     	font-weight: bold;
     }
+
+#Projects {
+}
+
+#facebook {
+	height: 20%;
+
+  max-width: 100%;
+
+}
+
+.links {
+	display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
